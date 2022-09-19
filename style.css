@@ -1,0 +1,227 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1080px;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 70px 0;
+}
+
+/* header part start */
+section.header {
+    padding: 0px;
+}
+
+.header {
+    background-color: #23232E;
+    height: 100vh;
+}
+
+.logo {
+    text-align: center;
+
+
+}
+
+.logo img {
+    width: 130px;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.heading {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.discreption p {
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+
+.header .arrow {
+    color: #fff;
+    text-align: center;
+    padding-top: 23vh;
+}
+
+.arrow span {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 10px;
+
+}
+
+/* header part end */
+/* what i do part Start */
+.what-i-do p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.what-i-do h2 {
+    margin: 30px 0px;
+    color: #464B4F;
+}
+
+.col {
+    width: 31.33%;
+    float: left;
+    margin: 1%;
+}
+
+.card h5 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+
+
+/* what i do part end */
+/* my work part start */
+.my-work {
+    background-color: #23232E;
+}
+
+.menu {
+    margin-bottom: 50px;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+
+    margin: 0 20px;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu ul li:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.cardd .title {
+    text-align: center;
+    margin: 10px 0px;
+    color: #fff;
+}
+
+.button {
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.parents {
+    margin-bottom: 4rem;
+}
+
+button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #7B77C9;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/* my work part end */
+/* photography part start */
+.photography h2 {
+    color: #464B4F;
+}
+
+.photography p {
+    color: #23232E;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+/* photography part end */
+.subscribe {
+    background-color: #23232E;
+}
+
+.infinity {
+    color: #fff;
+    text-align: center;
+
+}
+
+.infinity span {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.subscribe p {
+    color: #fff;
+    text-align: center;
+}
+
+.sub {
+
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+.sub input {
+    padding: 8px;
+}
+
+/* footer */
+.footer .container {
+    text-align: center;
+}
+
+.footer span {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #DBDBDB;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text p {
+    margin-top: 20px;
+    color: #DBDBDB;
+    display: inline-block;
+}
